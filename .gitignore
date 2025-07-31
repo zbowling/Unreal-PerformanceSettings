@@ -1,0 +1,72 @@
+# Ignore everything in the Intermediate and Saved directories
+**/Intermediate/*
+**/Saved/*
+
+# But keep the config files in Saved/Config (optional)
+!**/Saved/Config/
+
+# Ignore build and binary directories
+**/Binaries/*
+**/Build/*
+**/DerivedDataCache/*
+**/Intermediate/*
+**/Saved/*
+
+# Ignore project-specific binary and temporary files
+*.sdf
+*.suo
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.log
+*.tlog
+*.tmp
+*.bak
+*.orig
+*.pdb
+*.cache
+*.obj
+*.ipch
+*.aps
+*.ncb
+
+# Ignore compiled code binaries
+*.dll
+*.exe
+*.lib
+*.app
+*.dylib
+*.exp
+
+# Ignore iOS/Android build folders
+**/Build/IOS/*
+**/Build/Android/*
+
+# Ignore user-specific files
+*.user
+*.userprefs
+
+# Ignore Visual Studio and Xcode specific files
+.vscode/
+.vs/
+.idea/
+*.xcodeproj/*
+*.xcworkspace/*
+*.xcuserstate
+*.xcuserdata/
+
+# Ignore UBT/UBTMakefiles
+*.ubt
+*.ubtmanifest
+*.ubtproject
+*.ubtlog
+
+# Ignore crash reports
+CrashReportClient/Saved/
+
+# Optional: Ignore local plugins and content not for source control
+Plugins/Developer/
+Plugins/Marketplace/
+
+# Optional: Ignore the .DS_Store files on macOS
+.DS_Store
