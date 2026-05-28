@@ -47,7 +47,7 @@
 *.userprefs
 
 # Ignore Visual Studio and Xcode specific files
-.vscode/
+.vscode/*
 .vs/
 .idea/
 *.xcodeproj/*
@@ -70,3 +70,7 @@ Plugins/Marketplace/
 
 # Optional: Ignore the .DS_Store files on macOS
 .DS_Store
+
+# Meta Quest agentic tooling: keep VS Code/Cursor workspace recommendations
+!.vscode/extensions.json
+!.vscode/mcp.json
